@@ -7,19 +7,21 @@ A simple flask app using SWAPI
 Clone repo
 ```
 git clone https://github.com/AhmedSa-mir/swapi-search
+cd swapi-search/
 ```
 Prepare flask env
 ```
 pyvenv-3.5 env
-mv swapi-search/ env
+mv * env/
 source env/bin/activate
 pip install flask flask-cors requests pytest
+cd env/
 ```
 
 
 ## Run flask app
 ```
-cd app/
+cd swapi_app/
 python app.py
 ```
 
